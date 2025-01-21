@@ -2923,21 +2923,21 @@ optree = ["optree (>=0.9.1)"]
 
 [[package]]
 name = "torch"
-version = "2.2.2"
+version = "2.2.2+cu121"
 description = "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "torch-2.2.2-cp310-cp310-linux_x86_64.whl", hash = "sha256:cade4fd6c8ce7d826dbcfabd65f1d53b0ee0a058db8c1809d65bfd6051b55530"},
-    {file = "torch-2.2.2-cp310-cp310-win_amd64.whl", hash = "sha256:d300055aac0e2063f9a2659924e9766605db06d5683532c6eabbdef6bec865dd"},
-    {file = "torch-2.2.2-cp311-cp311-linux_x86_64.whl", hash = "sha256:4c94e4d1a22d70abbdff716dec99ba5eff94b4340ffa73b4fb629f940dbb8a75"},
-    {file = "torch-2.2.2-cp311-cp311-win_amd64.whl", hash = "sha256:efbcfdd4399197d06b32f7c0e1711c615188cdd65427b933648c7478fb880b3f"},
-    {file = "torch-2.2.2-cp312-cp312-linux_x86_64.whl", hash = "sha256:badc14d413ff1847d15021a1ec0affa479d24dfc83e6d51b9b4b9fbfaad1b14c"},
-    {file = "torch-2.2.2-cp312-cp312-win_amd64.whl", hash = "sha256:5b5b91c7fcda5f02e5e5644a32f593c6c17f301a1180213e353e34b51cc63b9f"},
-    {file = "torch-2.2.2-cp38-cp38-linux_x86_64.whl", hash = "sha256:c178beb2bb01f773601777bc481c7651be5b1f189cf180f0c0aceac0789aa9a5"},
-    {file = "torch-2.2.2-cp38-cp38-win_amd64.whl", hash = "sha256:aa67db6ad36d42305eac8236d8412d9fecea81f965cc0b374581cbd2b846ad0d"},
-    {file = "torch-2.2.2-cp39-cp39-linux_x86_64.whl", hash = "sha256:114e9395867ee860166562d8cc1f2809225f9e29783dd5e72175d9a9a7a8505c"},
-    {file = "torch-2.2.2-cp39-cp39-win_amd64.whl", hash = "sha256:2de773282a7855dd39139aabc37ffc4ba1b4b28b4594e5f56dd30010b064e8b0"},
+    {file = "torch-2.2.2+cu121-cp310-cp310-linux_x86_64.whl", hash = "sha256:cade4fd6c8ce7d826dbcfabd65f1d53b0ee0a058db8c1809d65bfd6051b55530"},
+    {file = "torch-2.2.2+cu121-cp310-cp310-win_amd64.whl", hash = "sha256:d300055aac0e2063f9a2659924e9766605db06d5683532c6eabbdef6bec865dd"},
+    {file = "torch-2.2.2+cu121-cp311-cp311-linux_x86_64.whl", hash = "sha256:4c94e4d1a22d70abbdff716dec99ba5eff94b4340ffa73b4fb629f940dbb8a75"},
+    {file = "torch-2.2.2+cu121-cp311-cp311-win_amd64.whl", hash = "sha256:efbcfdd4399197d06b32f7c0e1711c615188cdd65427b933648c7478fb880b3f"},
+    {file = "torch-2.2.2+cu121-cp312-cp312-linux_x86_64.whl", hash = "sha256:badc14d413ff1847d15021a1ec0affa479d24dfc83e6d51b9b4b9fbfaad1b14c"},
+    {file = "torch-2.2.2+cu121-cp312-cp312-win_amd64.whl", hash = "sha256:5b5b91c7fcda5f02e5e5644a32f593c6c17f301a1180213e353e34b51cc63b9f"},
+    {file = "torch-2.2.2+cu121-cp38-cp38-linux_x86_64.whl", hash = "sha256:c178beb2bb01f773601777bc481c7651be5b1f189cf180f0c0aceac0789aa9a5"},
+    {file = "torch-2.2.2+cu121-cp38-cp38-win_amd64.whl", hash = "sha256:aa67db6ad36d42305eac8236d8412d9fecea81f965cc0b374581cbd2b846ad0d"},
+    {file = "torch-2.2.2+cu121-cp39-cp39-linux_x86_64.whl", hash = "sha256:114e9395867ee860166562d8cc1f2809225f9e29783dd5e72175d9a9a7a8505c"},
+    {file = "torch-2.2.2+cu121-cp39-cp39-win_amd64.whl", hash = "sha256:2de773282a7855dd39139aabc37ffc4ba1b4b28b4594e5f56dd30010b064e8b0"},
 ]
 
 [package.dependencies]
