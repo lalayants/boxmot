@@ -3090,9 +3090,9 @@ solutions = ["shapely (>=2.0.0)", "streamlit"]
 
 [package.source]
 type = "git"
-url = "https://github.com/mikel-brostrom/ultralytics.git"
+url = "ssh://git@github.com/ITMO449-ML-department/ultralytics-track.git"
 reference = "HEAD"
-resolved_reference = "df637c3c6d6b956c4e616797442f2171fb037fc6"
+resolved_reference = "f4373a4d7b18693ff397cd62fed081290e889780"
 
 [[package]]
 name = "ultralytics-thop"
@@ -3200,4 +3200,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "6ce81dae3854635cb5451d92b81e7f6fdd4beb3c7431b1a7b10fc0ef2322c823"
+content-hash = "57bfb73848c84f634b6e81e19660fd0f6ed136ec7df9502a9094e66e955f2046"
