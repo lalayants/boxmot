@@ -3,6 +3,7 @@
 .eggs/
 env/
 *.DS_Store
+*tflite
 .coverage
 htmlcov/
 # interpreter bytecode
