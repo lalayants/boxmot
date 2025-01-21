@@ -1,0 +1,1 @@
+poetry run python tracking/track.py --yolo-model yolov8n --show --show-trajectories --tracking-method imprassoc
