@@ -2,8 +2,6 @@ from ultralytics import YOLO
 import numpy as np
 from PIL import Image
 import time
-import os
-import cv2
 
 model = YOLO(
     f"yolov8n_256_sim_best_full_integer_quant_edgetpu.tflite",
