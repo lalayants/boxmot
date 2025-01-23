@@ -24,10 +24,10 @@ sudo adduser $USER apex
 sudo usermod -aG plugdev $USER
 sudo depmod -a
 
-# Docker
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo apt install uidmap -y
-sudo sh get-docker.sh && dockerd-rootless-setuptool.sh install
+# # Docker
+# curl -fsSL https://get.docker.com -o get-docker.sh
+# sudo apt install uidmap -y
+# sudo sh get-docker.sh && dockerd-rootless-setuptool.sh install
 
 python -m venv ~/venv && source ~/venv/bin/activate && pip install tensorflow tflite_runtime
 # Reboot
