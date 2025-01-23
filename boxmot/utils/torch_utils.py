@@ -52,14 +52,13 @@ def select_device(device="", batch=0):
     device = parse_device(device)
     mps = device == "mps"
     cpu = device == "cpu" or device == "" and not torch.cuda.is_available()
-    tpu = 'apex_0' in os.listdir('/dev')
-
-    if cpu or mps or tpu:
+    
+    if cpu or mps:
         os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     elif device:
         os.environ["CUDA_VISIBLE_DEVICES"] = device
         
-    if not cpu and not mps and not tpu and torch.cuda.is_available():
+    if not cpu and not mps and torch.cuda.is_available():
         devices = device.split(",") if device else ["0"]
         n = len(devices)
         if n > 1 and batch > 0 and batch % n != 0:
@@ -72,9 +71,6 @@ def select_device(device="", batch=0):
     elif mps:
         s += "MPS"
         arg = "mps"
-    elif tpu:
-        s += "TPU"
-        arg = "cpu"
     else:
         s += "CPU"
         arg = "cpu"
