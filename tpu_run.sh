@@ -1,1 +1,1 @@
-poetry run python tracking/track.py --yolo-model yolov8n_256_sim_best_full_integer_quant_edgetpu.tflite --tracking-method imprassoc --source 'https://ultralytics.com/images/bus.jpg' --imgsz 256 # --show --show-trajectories 
+poetry run python tracking/track.py --yolo-model wights/yolov8n_640_full_integer_quant_edgetpu.tflite --tracking-method imprassoc --source 'https://ultralytics.com/images/bus.jpg' --imgsz 640 # --show --show-trajectories
