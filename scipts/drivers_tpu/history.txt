@@ -1,0 +1,55 @@
+    1  python3
+    2  sudo apt update
+    3  sudo apt upgrade -y
+    4  sudo apt install python3-dev python3-pip python3-venv
+    5  python3 -m venv venv
+    6  source venv/bin/activate
+    7  pip install ultralytics
+    8  ping 8.8.8.8
+    9  sudo raspi-config
+   10  sudo apt update
+   11  sudo apt upgrade -y
+   12  sudo apt update
+   13  sudo apt install python3-dev python3-pip python3-venv
+   14  pip install ultralytics
+   15  sudo apt install libedgetpu1-std
+   16  ip a
+   17  curl https://gist.githubusercontent.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e/raw/32d21f73bd1ebb33854c2b059e94abe7767c3d7e/coral-ai-pcie-edge-tpu-raspberrypi-5-setup | sh
+   24  sudo depmod -a
+   25  sudo modprobe apex
+   26  sudo apt-get install gasket-dkms libedgetpu1-std -y
+   27  git clone https://github.com/google/gasket-driver.git
+   28  cd gasket-driver; debuild -us -uc -tc -b; cd ..
+   29  sudo dpkg -i gasket-dkms_1.0-18_all.deb
+   31  cd gasket-driver/
+   33  debuild -us -uc -tc -b
+   34  sudo apt-get install linux-headers-$(uname -r)
+   35  sudo vim /boot/firmware/config.txt
+   36  sudo reboot
+   37  uname -a
+   38  sudo apt update
+   39  echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+   40  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+   41  sudo apt-get update
+   42  sudo apt-get install cmake libedgetpu1-std devscripts debhelper dkms dh-dkms
+   43  sudo apt remove gasket-dkms
+   44  sudo apt-get install cmake libedgetpu1-std devscripts debhelper dkms dh-dkms
+   45  rm -rf gasket-driver/
+   46  git clone https://github.com/google/gasket-driver.git
+   47  cd gasket-driver
+   48  sudo debuild -us -uc -tc -b
+   49  cd ..
+   50  sudo dpkg -i gasket-dkms_1.0-18_all.deb
+   51  sudo sh -c "echo 'SUBSYSTEM==\"apex\", MODE=\"0660\", GROUP=\"apex\"' >> /etc/udev/rules.d/65-apex.rules"
+   52  sudo groupadd apex
+   53  sudo adduser $USER apex
+   54  sudo reboot
+   55  sudo lspci -v
+   56  source venv/bin/activate
+   57  git clone git@github.com:lalayants/Jericho.git
+   58  cd Jericho/
+   59  git checkout feature/tpu-installation 
+   63  pip install -U tflite-runtime
+   75  sudo apt remove libedgetpu1
+   76  sudo apt remove libedgetpu1-std
+   78  sudo apt install ./libedgetpu1-std_16.0tf2.17.0-1.bookworm_arm64.deb 
