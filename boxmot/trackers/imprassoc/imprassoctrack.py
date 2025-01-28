@@ -296,6 +296,8 @@ class ImprAssocTrack(BaseTracker):
             else:
                 # (Ndets x X) [512, 1024, 2048]
                 features_high = self.model.get_features(dets_first[:, 0:4], img)
+                # print(features_high.shape)
+                # print(dets_first[:, 0:4].shape)
 
         if len(dets) > 0:
             """Detections"""

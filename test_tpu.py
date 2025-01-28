@@ -8,7 +8,7 @@ model = YOLO(
     task="detect",
 )
 
-img_file = np.asarray(Image.open('bus.jpg').resize((640, 640)))
+img_file = np.asarray(Image.open('bus640.jpg').resize((640, 640)))
 print(img_file.shape)
 res = model.predict(img_file, imgsz=640, device="tpu:1", verbose=False)
 frames = 10

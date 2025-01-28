@@ -1,1 +1,1 @@
-poetry run python tracking/track.py --yolo-model yolov8n --tracking-method imprassoc --source 'https://ultralytics.com/images/bus.jpg' # --show --show-trajectories
+poetry run python tracking/track.py --yolo-model yolov8n --tracking-method imprassoc --source 'https://ultralytics.com/images/bus640.jpg' --imgsz 640 # --show --show-trajectories
