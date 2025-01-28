@@ -4,7 +4,7 @@ from PIL import Image
 import time
 
 model = YOLO(
-    f"wights/yolov8n_640_full_integer_quant_edgetpu.tflite",
+    f"myweights/yolov8n_640_full_integer_quant_edgetpu.tflite",
     task="detect",
 )
 
