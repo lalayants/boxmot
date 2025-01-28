@@ -17,6 +17,8 @@ from tracking.detectors import (get_yolo_inferer, default_imgsz,
 
 checker = RequirementsChecker()
 checker.check_packages(('ultralytics @ git+https://github.com/mikel-brostrom/ultralytics.git', ))  # install
+import time
+time_for_fps = time.time()
 
 from ultralytics import YOLO
 from ultralytics.utils.plotting import Annotator, colors
@@ -116,7 +118,11 @@ def run(args):
         img = yolo.predictor.trackers[0].plot_results(r.orig_img, args.show_trajectories)
 
         if args.show is True:
-            cv2.imshow('BoxMOT', img)     
+            cv2.imshow('BoxMOT', img)
+            global time_for_fps
+            dt = time.time() - time_for_fps
+            print(f'FPS {1 / dt} -- {round(dt * 1e3, 1)} ms')   
+            time_for_fps = time.time()
             key = cv2.waitKey(1) & 0xFF
             if key == ord(' ') or key == ord('q'):
                 break
