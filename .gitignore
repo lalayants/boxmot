@@ -26,7 +26,6 @@ weights/*.onnx
 weights/*_openvino_model
 weights/*.engine
 weights/*.tflite
-!myweights/*
 # evaluation tools folder
 val_utils/
 
@@ -40,6 +39,7 @@ val_utils/
 *.pth
 *.onnx
 *.engine
+!myweights/*
 
 # interactive plots
 *.html
