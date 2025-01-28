@@ -26,7 +26,7 @@ weights/*.onnx
 weights/*_openvino_model
 weights/*.engine
 weights/*.tflite
-
+!myweights/*
 # evaluation tools folder
 val_utils/
 
