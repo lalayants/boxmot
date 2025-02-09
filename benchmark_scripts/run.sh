@@ -6,8 +6,8 @@ cd "$(dirname "$0")/.."
 
 # Define arrays for tracker methods, REID models, and YOLO weights.
 trackers=("ocsort" "bytetrack" "botsort" "hybridsort" "deepocsort" "imprassoc" "strongsort")
-reid_models=("osnet_x1_0_dukemtmcreid.pt" "model2.pt" "model3.pt")  # Update these names as needed.
-yolo_weights=("yolov8x.pt" "yolov8s.pt" "yolov8m.pt")                # Update these names as needed.
+reid_models=("osnet_x1_0_dukemtmcreid.pt" "osnet_x0_75_dukemtmcreid.pt" "osnet_x0_5_dukemtmcreid.pt" "osnet_x0_25_dukemtmcreid.pt")  # Update these names as needed.
+yolo_weights=("yolov8n.pt" "yolov8s.pt" "yolov8m.pt" "yolov8l.pt" "yolov8x.pt")                # Update these names as needed.
 
 # Set the dataset directory.
 DATASET_DIR="tracking/val_utils/data/MOT17-50/train"
@@ -37,9 +37,9 @@ for tracker in "${trackers[@]}"; do
             # Run the evaluation command.
             # (Assuming the evaluation script is at tracking/val.py in the repository root.)
             if poetry run python3 tracking/val.py --imgsz 320 --classes 0 --yolo-model "$yolo_weight" --reid-model "$reid_model" --tracking-method "$tracker" --verbose --source "$DATASET_DIR"; then
-                status="✅"
+                status="OK"
             else
-                status="❌"
+                status="ERROR"
             fi
             
             # Record the end time and calculate elapsed time.

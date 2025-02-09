@@ -11,14 +11,14 @@ echo "Installing system dependencies..."
 sudo apt-get update
 sudo apt-get install -y jq curl
 
-# Adjust pyproject.toml for OS-specific dependency replacement
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    echo "Detected macOS. Adjusting pyproject.toml..."
-    sed -i '' 's/source="torch_cuda121"/source="torchcpu"/g' pyproject.toml
-    elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    echo "Detected Linux. Adjusting pyproject.toml..."
-    sed -i 's/source="torch_cuda121"/source="torchcpu"/g' pyproject.toml
-fi
+# # Adjust pyproject.toml for OS-specific dependency replacement
+# if [[ "$OSTYPE" == "darwin"* ]]; then
+#     echo "Detected macOS. Adjusting pyproject.toml..."
+#     sed -i '' 's/source="torch_cuda121"/source="torchcpu"/g' pyproject.toml
+#     elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+#     echo "Detected Linux. Adjusting pyproject.toml..."
+#     sed -i 's/source="torch_cuda121"/source="torchcpu"/g' pyproject.toml
+# fi
 
 # Install Python dependencies using Poetry
 echo "Installing Python dependencies..."
