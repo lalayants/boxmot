@@ -4,10 +4,12 @@ set -e
 echo "Starting benchmark..."
 cd "$(dirname "$0")/.."
 
-# Define arrays for tracker methods, REID models, and YOLO weights.
-trackers=("ocsort" "bytetrack" "botsort" "hybridsort" "deepocsort" "imprassoc" "strongsort")
-reid_models=("osnet_x1_0_dukemtmcreid.pt" "osnet_x0_75_dukemtmcreid.pt" "osnet_x0_5_dukemtmcreid.pt" "osnet_x0_25_dukemtmcreid.pt")  # Update these names as needed.
-yolo_weights=("yolov8n.pt" "yolov8s.pt" "yolov8m.pt" "yolov8l.pt" "yolov8x.pt")                # Update these names as needed.
+
+# reid_models=("resnet50_msmt17.pt" "resnet50_fc512_msmt17.pt" "clip_market1501.pt" "lmbn_n_cuhk03_d.pt")
+# yolo_weights=("yolov8n.pt" "yolov8s.pt" "yolov8m.pt" "yolov8l.pt" "yolov8x.pt")
+trackers=("ocsort" "bytetrack" "botsort" "deepocsort" "imprassoc" "strongsort")
+yolo_weights=("yolov8n_runs_512p_450epoches.pt" "yolov8s_runs_512p_450epoches.pt" "yolov8m_runs_512p_450epoches.pt" "yolov8l_runs_512p_450epoches.pt" "yolov8x_runs_512p_450epoches.pt")
+reid_models=("osnet_x1_0_dukemtmcreid.pt" "osnet_x0_75_dukemtmcreid.pt" "osnet_x0_5_dukemtmcreid.pt" "osnet_x0_25_dukemtmcreid.pt")
 
 # Set the dataset directory.
 DATASET_DIR="tracking/val_utils/data/MOT17-50/train"
@@ -23,20 +25,23 @@ mkdir -p "$RESULTS_DIR"
 
 # Create (or clear) the combined results CSV file.
 RESULTS_FILE="$RESULTS_DIR/results.csv"
-echo "Tracker,REID Model,YOLO Model,Status,HOTA,MOTA,IDF1,FPS,Elapsed_time" > "$RESULTS_FILE"
+echo "Tracker,REID Model,YOLO Model,ImgSz,Status,HOTA,MOTA,IDF1,FPS,Elapsed_time" > "$RESULTS_FILE"
 
 # Loop through each combination.
 for tracker in "${trackers[@]}"; do
     for reid_model in "${reid_models[@]}"; do
         for yolo_weight in "${yolo_weights[@]}"; do
-            echo "Running benchmark for tracker: $tracker, REID: $reid_model, YOLO: $yolo_weight"
+            # Extract the image size from the YOLO weight name.
+            # The expected pattern is *_runs_<imgsz>p_*, e.g., yolov8n_runs_512p_450epoches.pt
+            imgsz=$(echo "$yolo_weight" | sed -E 's/.*_runs_([0-9]+)p_.*/\1/')
+            
+            echo "Running benchmark for tracker: $tracker, REID: $reid_model, YOLO: $yolo_weight (imgsz: $imgsz)"
             
             # Record the start time.
             start=$(date +%s.%N)
             
             # Run the evaluation command.
-            # (Assuming the evaluation script is at tracking/val.py in the repository root.)
-            if poetry run python3 tracking/val.py --imgsz 320 --classes 0 --yolo-model "$yolo_weight" --reid-model "$reid_model" --tracking-method "$tracker" --verbose --source "$DATASET_DIR"; then
+            if poetry run python3 tracking/val.py --ci --imgsz "$imgsz" --classes 0 --yolo-model "$yolo_weight" --reid-model "$reid_model" --tracking-method "$tracker" --verbose --source "$DATASET_DIR"; then
                 status="OK"
             else
                 status="ERROR"
@@ -72,13 +77,13 @@ for tracker in "${trackers[@]}"; do
             fi
             
             # Append this run’s result to the CSV file.
-            echo "$tracker,$reid_model,$yolo_weight,$status,$HOTA,$MOTA,$IDF1,$fps,$elapsed" >> "$RESULTS_FILE"
+            echo "$tracker,$reid_model,$yolo_weight,$imgsz,$status,$HOTA,$MOTA,$IDF1,$fps,$elapsed" >> "$RESULTS_FILE"
         done
     done
 done
 
 # Optionally, sort the results by HOTA (5th column) in descending order.
-sort -t, -k5 -nr "$RESULTS_FILE" > "$RESULTS_DIR/sorted_results.csv"
+sort -t, -k6 -nr "$RESULTS_FILE" > "$RESULTS_DIR/sorted_results.csv"
 
 # If the 'column' command is available, create a human-readable table.
 if command -v column >/dev/null 2>&1; then
