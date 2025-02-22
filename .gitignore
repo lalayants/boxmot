@@ -55,3 +55,5 @@ dist/
 
 # cmc debug images
 boxmot/motion/cmc/*.jpg
+benchmark_scripts/old
+benchmark_scripts/*/*json
