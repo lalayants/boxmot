@@ -89,7 +89,6 @@ def run(args):
         vid_stride=args.vid_stride,
         line_width=args.line_width
     )
-
     yolo.add_callback('on_predict_start', partial(on_predict_start, persist=True))
 
     if not is_ultralytics_model(args.yolo_model):
@@ -112,17 +111,18 @@ def run(args):
 
     # store custom args in predictor
     yolo.predictor.custom_args = args
+    time_for_fps = time.time()
 
     for r in results:
 
-        img = yolo.predictor.trackers[0].plot_results(r.orig_img, args.show_trajectories)
+        # img = yolo.predictor.trackers[0].plot_results(r.orig_img, args.show_trajectories)
+        dt = time.time() - time_for_fps 
+        time_for_fps = time.time()
+        print(f'FPS {1 / dt} -- {round(dt * 1e3, 1)} ms')  
 
         if args.show is True:
+            img = yolo.predictor.trackers[0].plot_results(r.orig_img, args.show_trajectories)
             cv2.imshow('BoxMOT', img)
-            global time_for_fps
-            dt = time.time() - time_for_fps
-            print(f'FPS {1 / dt} -- {round(dt * 1e3, 1)} ms')   
-            time_for_fps = time.time()
             key = cv2.waitKey(1) & 0xFF
             if key == ord(' ') or key == ord('q'):
                 break

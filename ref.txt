@@ -1,0 +1,302 @@
+
+video 1/1 (frame 1/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 19.4ms
+FPS 33.85342545360625 -- 29.5 ms
+video 1/1 (frame 2/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.9ms
+FPS 49.86273880428451 -- 20.1 ms
+video 1/1 (frame 3/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.2ms
+FPS 58.47268266161074 -- 17.1 ms
+video 1/1 (frame 4/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 14.0ms
+FPS 62.55860155713987 -- 16.0 ms
+video 1/1 (frame 5/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 17.4ms
+FPS 51.99915696557196 -- 19.2 ms
+video 1/1 (frame 6/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 14.0ms
+FPS 63.52888431129018 -- 15.7 ms
+video 1/1 (frame 7/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 18.0ms
+FPS 50.31433986708572 -- 19.9 ms
+video 1/1 (frame 8/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 18.3ms
+FPS 49.76098897839576 -- 20.1 ms
+video 1/1 (frame 9/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 14.6ms
+FPS 60.59206610615122 -- 16.5 ms
+video 1/1 (frame 10/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.6ms
+FPS 54.516084588689445 -- 18.3 ms
+video 1/1 (frame 11/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 17.1ms
+FPS 52.35092799460802 -- 19.1 ms
+video 1/1 (frame 12/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.0ms
+FPS 59.29434383703013 -- 16.9 ms
+video 1/1 (frame 13/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.5ms
+FPS 53.754520870980556 -- 18.6 ms
+video 1/1 (frame 14/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.9ms
+FPS 55.9255446811915 -- 17.9 ms
+video 1/1 (frame 15/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.9ms
+FPS 54.24744561421661 -- 18.4 ms
+video 1/1 (frame 16/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.7ms
+FPS 53.890582037774635 -- 18.6 ms
+video 1/1 (frame 17/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.5ms
+FPS 58.340111831307205 -- 17.1 ms
+video 1/1 (frame 18/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.9ms
+FPS 56.300138256889355 -- 17.8 ms
+video 1/1 (frame 19/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.4ms
+FPS 54.740205163008014 -- 18.3 ms
+video 1/1 (frame 20/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.4ms
+FPS 54.93306091443689 -- 18.2 ms
+video 1/1 (frame 21/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.5ms
+FPS 58.00127222944381 -- 17.2 ms
+video 1/1 (frame 22/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.3ms
+FPS 55.25145890690659 -- 18.1 ms
+video 1/1 (frame 23/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 24.2ms
+FPS 38.04909556035343 -- 26.3 ms
+video 1/1 (frame 24/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 18.1ms
+FPS 50.308908373415214 -- 19.9 ms
+video 1/1 (frame 25/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 15.1ms
+FPS 59.03894824261363 -- 16.9 ms
+video 1/1 (frame 26/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 14.4ms
+FPS 60.8902631999187 -- 16.4 ms
+video 1/1 (frame 27/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 17.8ms
+FPS 48.605379347108105 -- 20.6 ms
+video 1/1 (frame 28/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.7ms
+FPS 53.38505988519353 -- 18.7 ms
+video 1/1 (frame 29/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 17.3ms
+FPS 51.98562256761112 -- 19.2 ms
+video 1/1 (frame 30/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 16.2ms
+FPS 55.67906544537369 -- 18.0 ms
+video 1/1 (frame 31/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 1 person, 26.3ms
+FPS 35.34813791011066 -- 28.3 ms
+video 1/1 (frame 32/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.9ms
+FPS 59.088019835455874 -- 16.9 ms
+video 1/1 (frame 33/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 16.2ms
+FPS 55.44134403130081 -- 18.0 ms
+video 1/1 (frame 34/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 13.6ms
+FPS 64.2381878608733 -- 15.6 ms
+video 1/1 (frame 35/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.0ms
+FPS 58.627975566458396 -- 17.1 ms
+video 1/1 (frame 36/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 16.8ms
+FPS 53.287393121672956 -- 18.8 ms
+video 1/1 (frame 37/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.8ms
+FPS 56.116345343376636 -- 17.8 ms
+video 1/1 (frame 38/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.4ms
+FPS 57.90678153302408 -- 17.3 ms
+video 1/1 (frame 39/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 17.5ms
+FPS 48.4006554501604 -- 20.7 ms
+video 1/1 (frame 40/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 17.9ms
+FPS 49.183892680409954 -- 20.3 ms
+video 1/1 (frame 41/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.7ms
+FPS 59.76920555753473 -- 16.7 ms
+video 1/1 (frame 42/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.7ms
+FPS 59.73005226356788 -- 16.7 ms
+video 1/1 (frame 43/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.4ms
+FPS 60.97878836340375 -- 16.4 ms
+video 1/1 (frame 44/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.2ms
+FPS 58.33280947943758 -- 17.1 ms
+video 1/1 (frame 45/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 18.0ms
+FPS 50.59474065138721 -- 19.8 ms
+video 1/1 (frame 46/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.5ms
+FPS 57.66000384922053 -- 17.3 ms
+video 1/1 (frame 47/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 17.1ms
+FPS 51.51188838671645 -- 19.4 ms
+video 1/1 (frame 48/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 18.0ms
+FPS 49.70437874029744 -- 20.1 ms
+video 1/1 (frame 49/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.3ms
+FPS 62.01931124221858 -- 16.1 ms
+video 1/1 (frame 50/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 22.8ms
+FPS 40.4777456089558 -- 24.7 ms
+video 1/1 (frame 51/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.9ms
+FPS 58.847602211185006 -- 17.0 ms
+video 1/1 (frame 52/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.9ms
+FPS 59.36820054070121 -- 16.8 ms
+video 1/1 (frame 53/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 16.7ms
+FPS 53.31380923327232 -- 18.8 ms
+video 1/1 (frame 54/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.9ms
+FPS 56.20733831845836 -- 17.8 ms
+video 1/1 (frame 55/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 16.9ms
+FPS 52.37511550660573 -- 19.1 ms
+video 1/1 (frame 56/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 22.4ms
+FPS 39.686091950760265 -- 25.2 ms
+video 1/1 (frame 57/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.8ms
+FPS 55.07805441748083 -- 18.2 ms
+video 1/1 (frame 58/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 13.2ms
+FPS 66.29528822292822 -- 15.1 ms
+video 1/1 (frame 59/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 14.8ms
+FPS 59.712194983058566 -- 16.7 ms
+video 1/1 (frame 60/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 19.6ms
+FPS 44.28295113813928 -- 22.6 ms
+video 1/1 (frame 61/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 18.1ms
+FPS 46.4964359750352 -- 21.5 ms
+video 1/1 (frame 62/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 17.0ms
+FPS 51.8699018080186 -- 19.3 ms
+video 1/1 (frame 63/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 14.1ms
+FPS 61.240549577304385 -- 16.3 ms
+video 1/1 (frame 64/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 16.6ms
+FPS 53.04746607307727 -- 18.9 ms
+video 1/1 (frame 65/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 15.4ms
+FPS 56.36066058399065 -- 17.7 ms
+video 1/1 (frame 66/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 15.1ms
+FPS 57.853266941612986 -- 17.3 ms
+video 1/1 (frame 67/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 18.0ms
+FPS 47.37560005873516 -- 21.1 ms
+video 1/1 (frame 68/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 1 tie, 16.1ms
+FPS 54.43048093643749 -- 18.4 ms
+video 1/1 (frame 69/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 1 tie, 13.4ms
+FPS 63.71514074344134 -- 15.7 ms
+video 1/1 (frame 70/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 1 tie, 20.7ms
+FPS 42.20258590330533 -- 23.7 ms
+video 1/1 (frame 71/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 1 tie, 23.2ms
+FPS 38.17549991353339 -- 26.2 ms
+video 1/1 (frame 72/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 18.8ms
+FPS 47.56687117955929 -- 21.0 ms
+video 1/1 (frame 73/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 1 tie, 16.0ms
+FPS 54.67455744714133 -- 18.3 ms
+video 1/1 (frame 74/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 19.4ms
+FPS 46.21517034686412 -- 21.6 ms
+video 1/1 (frame 75/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 15.9ms
+FPS 55.62368543200053 -- 18.0 ms
+video 1/1 (frame 76/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 16.9ms
+FPS 50.96297736358003 -- 19.6 ms
+video 1/1 (frame 77/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 16.0ms
+FPS 55.25801011804384 -- 18.1 ms
+video 1/1 (frame 78/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 16.9ms
+FPS 52.43273245493412 -- 19.1 ms
+video 1/1 (frame 79/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 14.7ms
+FPS 58.527349854878324 -- 17.1 ms
+video 1/1 (frame 80/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 15.9ms
+FPS 54.90573496877904 -- 18.2 ms
+video 1/1 (frame 81/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 14.1ms
+FPS 60.83109499637418 -- 16.4 ms
+video 1/1 (frame 82/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 14.9ms
+FPS 58.985810117147395 -- 17.0 ms
+video 1/1 (frame 83/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 15.4ms
+FPS 57.0638077875432 -- 17.5 ms
+video 1/1 (frame 84/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 17.5ms
+FPS 51.211252472467095 -- 19.5 ms
+video 1/1 (frame 85/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 16.8ms
+FPS 52.206270770839296 -- 19.2 ms
+video 1/1 (frame 86/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 2 persons, 15.4ms
+FPS 57.02269050370471 -- 17.5 ms
+video 1/1 (frame 87/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 17.8ms
+FPS 48.574419789688235 -- 20.6 ms
+video 1/1 (frame 88/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 21.4ms
+FPS 40.42157202883466 -- 24.7 ms
+video 1/1 (frame 89/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 14.9ms
+FPS 58.71332782731638 -- 17.0 ms
+video 1/1 (frame 90/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 19.8ms
+FPS 45.481500759054434 -- 22.0 ms
+video 1/1 (frame 91/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 3 persons, 15.0ms
+FPS 57.990847124863464 -- 17.2 ms
+video 1/1 (frame 92/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 22.6ms
+FPS 39.586831772878284 -- 25.3 ms
+video 1/1 (frame 93/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 23.8ms
+FPS 38.169593942813464 -- 26.2 ms
+video 1/1 (frame 94/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 18.5ms
+FPS 48.088235631327315 -- 20.8 ms
+video 1/1 (frame 95/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 13.8ms
+FPS 61.69092059009546 -- 16.2 ms
+video 1/1 (frame 96/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 17.9ms
+FPS 49.55580235827879 -- 20.2 ms
+video 1/1 (frame 97/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.6ms
+FPS 55.503705272072835 -- 18.0 ms
+video 1/1 (frame 98/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.8ms
+FPS 54.52246256239601 -- 18.3 ms
+video 1/1 (frame 99/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 16.2ms
+FPS 52.29023088814641 -- 19.1 ms
+video 1/1 (frame 100/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 14.4ms
+FPS 57.37604990287544 -- 17.4 ms
+video 1/1 (frame 101/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 13.5ms
+FPS 63.95510963374097 -- 15.6 ms
+video 1/1 (frame 102/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.9ms
+FPS 55.0209757185397 -- 18.2 ms
+video 1/1 (frame 103/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.9ms
+FPS 54.81532208528824 -- 18.2 ms
+video 1/1 (frame 104/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 16.2ms
+FPS 53.98144120258948 -- 18.5 ms
+video 1/1 (frame 105/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 17.5ms
+FPS 50.709739820098655 -- 19.7 ms
+video 1/1 (frame 106/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.7ms
+FPS 55.48461518109903 -- 18.0 ms
+video 1/1 (frame 107/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.8ms
+FPS 55.31558193208045 -- 18.1 ms
+video 1/1 (frame 108/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 16.3ms
+FPS 54.32754779545101 -- 18.4 ms
+video 1/1 (frame 109/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.7ms
+FPS 55.88381698510406 -- 17.9 ms
+video 1/1 (frame 110/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.5ms
+FPS 56.828767308890875 -- 17.6 ms
+video 1/1 (frame 111/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 17.1ms
+FPS 51.73809641288795 -- 19.3 ms
+video 1/1 (frame 112/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 13.9ms
+FPS 61.39922707577 -- 16.3 ms
+video 1/1 (frame 113/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 17.4ms
+FPS 51.1276025159686 -- 19.6 ms
+video 1/1 (frame 114/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 16.6ms
+FPS 52.88960064562501 -- 18.9 ms
+video 1/1 (frame 115/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 14.6ms
+FPS 58.71004045296119 -- 17.0 ms
+video 1/1 (frame 116/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 18.9ms
+FPS 47.02134529147982 -- 21.3 ms
+video 1/1 (frame 117/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 16.7ms
+FPS 50.423216561275275 -- 19.8 ms
+video 1/1 (frame 118/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 16.1ms
+FPS 52.76517800981256 -- 19.0 ms
+video 1/1 (frame 119/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 15.2ms
+FPS 56.31525664952537 -- 17.8 ms
+video 1/1 (frame 120/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 18.6ms
+FPS 46.96658604317836 -- 21.3 ms
+video 1/1 (frame 121/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 4 persons, 17.5ms
+FPS 50.55083642674637 -- 19.8 ms
+video 1/1 (frame 122/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 13.3ms
+FPS 63.18340538993417 -- 15.8 ms
+video 1/1 (frame 123/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 15.4ms
+FPS 56.00021362386178 -- 17.9 ms
+video 1/1 (frame 124/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 17.1ms
+FPS 49.40985769484497 -- 20.2 ms
+video 1/1 (frame 125/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 19.2ms
+FPS 46.11304242664116 -- 21.7 ms
+video 1/1 (frame 126/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 18.0ms
+FPS 48.59524278481306 -- 20.6 ms
+video 1/1 (frame 127/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.6ms
+FPS 52.42421288137288 -- 19.1 ms
+video 1/1 (frame 128/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 20.2ms
+FPS 44.643051771117165 -- 22.4 ms
+video 1/1 (frame 129/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 1 tie, 16.7ms
+FPS 52.17315155736889 -- 19.2 ms
+video 1/1 (frame 130/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 1 tie, 14.5ms
+FPS 56.268416039495044 -- 17.8 ms
+video 1/1 (frame 131/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 17.3ms
+FPS 50.643612653948324 -- 19.7 ms
+video 1/1 (frame 132/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 18.7ms
+FPS 47.74610113152563 -- 20.9 ms
+video 1/1 (frame 133/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 17.1ms
+FPS 51.37182470666046 -- 19.5 ms
+video 1/1 (frame 134/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.1ms
+FPS 53.85321760566997 -- 18.6 ms
+video 1/1 (frame 135/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 18.2ms
+FPS 45.11411085177098 -- 22.2 ms
+video 1/1 (frame 136/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.6ms
+FPS 51.877600494743355 -- 19.3 ms
+video 1/1 (frame 137/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 20.3ms
+FPS 43.41794768278418 -- 23.0 ms
+video 1/1 (frame 138/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.4ms
+FPS 53.63903062855681 -- 18.6 ms
+video 1/1 (frame 139/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 14.8ms
+FPS 58.61404734620867 -- 17.1 ms
+video 1/1 (frame 140/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 14.3ms
+FPS 60.50291385378801 -- 16.5 ms
+video 1/1 (frame 141/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 15.7ms
+FPS 50.56119582906395 -- 19.8 ms
+video 1/1 (frame 142/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 15.5ms
+FPS 55.410581940683 -- 18.0 ms
+video 1/1 (frame 143/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 20.1ms
+FPS 44.44484004620063 -- 22.5 ms
+video 1/1 (frame 144/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 14.5ms
+FPS 58.119417462275 -- 17.2 ms
+video 1/1 (frame 145/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 15.5ms
+FPS 55.75974794272876 -- 17.9 ms
+video 1/1 (frame 146/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 15.3ms
+FPS 56.81183290892344 -- 17.6 ms
+video 1/1 (frame 147/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.5ms
+FPS 53.079017970134146 -- 18.8 ms
+video 1/1 (frame 148/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.4ms
+FPS 53.47285754353757 -- 18.7 ms
+video 1/1 (frame 149/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 14.4ms
+FPS 60.00606598185928 -- 16.7 ms
+video 1/1 (frame 150/150) /Users/lalayants/Documents/itmo/ThesisCode/generate_video/output_640_175.mp4: 320x320 5 persons, 16.5ms
+FPS 50.96297736358003 -- 19.6 ms
+Speed: 0.4ms preprocess, 16.6ms inference, 0.4ms postprocess per image at shape (1, 3, 320, 320)
