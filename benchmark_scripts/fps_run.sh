@@ -10,7 +10,7 @@ trackers=("strongsort" "ocsort" "bytetrack" "botsort" "deepocsort" "imprassoc")
 # yolo_weights=("yolov8n.pt")
 
 # Output CSV file; header includes one row per object count (group)
-output_file="benchmark_scripts/fps_3080ti_640_results.csv"
+output_file="benchmark_scripts/fps_3080ti_320_results.csv"
 echo "tracker,yolo_model,reid_model,object_count,avg_fps,avg_time_per_frame,min_time_per_frame,max_time_per_frame" > "$output_file"
 # Initialize associative arrays to accumulate per object count group.
 declare -A sum_fps sum_time count_group min_time max_time
@@ -22,7 +22,7 @@ for tracker in "${trackers[@]}"; do
       echo "Running: Tracker=$tracker, YOLO=$yolo_model, ReID=$reid_model"
       
       # Run the tracking script and capture output (both stdout and stderr)
-      output=$(poetry run python tracking/track.py --imgsz 640 \
+      output=$(poetry run python tracking/track.py --imgsz 320 \
                 --yolo-model "$yolo_model" \
                 --tracking-method "$tracker" \
                 --reid-model "$reid_model" \
