@@ -20,6 +20,7 @@ for tracker in "${trackers[@]}"; do
   for yolo_model in "${yolo_weights[@]}"; do
     for reid_model in "${reid_models[@]}"; do
       echo "Running: Tracker=$tracker, YOLO=$yolo_model, ReID=$reid_model"
+      date +%Y%m%d---%H:%M:%S
       
       # Run the tracking script and capture output (both stdout and stderr)
       output=$(poetry run python tracking/track.py --imgsz 320 \
