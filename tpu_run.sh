@@ -5,4 +5,4 @@ poetry run python tracking/track.py --imgsz 320 \
     --tracking-method strongsort \
     --reid-model osnet_x1_0_market1501.pt \
     --classes 0 \
-    --source video.mp4 
+    --source generate_video/output_640_175.mp4
