@@ -5,7 +5,7 @@ export DISPLAY=:0
 
 # Define arrays (adjust as needed)
 yolo_weights=("../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite" "../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite")
-reid_models=("osnet_x1_0_market1501.pt" "osnet_x0_75_market1501.pt" "osnet_x0_5_market1501.pt" "osnet_x0_25_market1501.pt" "clip_market1501.pt" "lmbn_n_market.pt" "clip_market1501.pt" "osnet_ibn_x1_0_msmt17.pt" "osnet_ain_x1_0_msmt17.pt")
+reid_models=("osnet_x1_0_market1501.pt" "osnet_x0_75_market1501.pt" "osnet_x0_5_market1501.pt" "osnet_x0_25_market1501.pt" "lmbn_n_market.pt" "clip_market1501.pt" "osnet_ibn_x1_0_msmt17.pt" "osnet_ain_x1_0_msmt17.pt")
 trackers=("strongsort" "ocsort" "bytetrack" "botsort" "deepocsort" "imprassoc")
 # yolo_weights=("yolov8n.pt")
 
