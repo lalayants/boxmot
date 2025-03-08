@@ -4,13 +4,13 @@ cd "$(dirname "$0")/.."
 export DISPLAY=:0
 
 # Define arrays (adjust as needed)
-yolo_weights=("../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite" "../tpu_weights/v8/320/yolov8s_full_integer_quant_edgetpu.tflite")
+yolo_weights=("../tpu_weights/v8/512/yolov8n_full_integer_quant_edgetpu.tflite" "../tpu_weights/v8/512/yolov8s_full_integer_quant_edgetpu.tflite")
 reid_models=("osnet_x1_0_market1501.pt" "osnet_x0_75_market1501.pt" "osnet_x0_5_market1501.pt" "osnet_x0_25_market1501.pt" "lmbn_n_market.pt" "clip_market1501.pt" "osnet_ibn_x1_0_msmt17.pt" "osnet_ain_x1_0_msmt17.pt")
 trackers=("strongsort" "ocsort" "bytetrack" "botsort" "deepocsort" "imprassoc")
 # yolo_weights=("yolov8n.pt")
 
 # Output CSV file; header includes one row per object count (group)
-output_file="benchmark_scripts/fps_tpu_320_results.csv"
+output_file="benchmark_scripts/fps_tpu_512_results.csv"
 echo "tracker,yolo_model,reid_model,object_count,avg_fps,avg_time_per_frame,min_time_per_frame,max_time_per_frame" > "$output_file"
 # Initialize associative arrays to accumulate per object count group.
 declare -A sum_fps sum_time count_group min_time max_time
@@ -23,7 +23,7 @@ for tracker in "${trackers[@]}"; do
       date +%Y%m%d---%H:%M:%S
       
       # Run the tracking script and capture output (both stdout and stderr)
-      output=$(poetry run python tracking/track.py --imgsz 320 \
+      output=$(poetry run python tracking/track.py --imgsz 512 \
                 --yolo-model "$yolo_model" \
                 --tracking-method "$tracker" \
                 --reid-model "$reid_model" \
@@ -42,7 +42,7 @@ for tracker in "${trackers[@]}"; do
           IFS= read -r fps_line <&3 || break
           
           # Extract object count from video_line.
-          # Example: "... 320x320 1 person, 25.7ms" or "... 320x320 2 persons, 22.8ms"
+          # Example: "... 321x321 1 person, 25.7ms" or "... 321x321 2 persons, 22.8ms"
           if [[ $video_line =~ ([0-9]+)[[:space:]]+person ]]; then
               oc="${BASH_REMATCH[1]}"
           else
