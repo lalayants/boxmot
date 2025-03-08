@@ -1,0 +1,16 @@
+tracker,yolo_model,reid_model,object_count,avg_fps,avg_time_per_frame,min_time_per_frame,max_time_per_frame
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x1_0_market1501.pt,1,4.382210,564.087500,192.4,10283.0
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x1_0_market1501.pt,2,2.612023,383.080000,367.1,406.0
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x1_0_market1501.pt,3,1.347667,748.145161,686.5,912.6
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x1_0_market1501.pt,4,1.082405,938.268965,855.1,1477.5
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x1_0_market1501.pt,5,.867885,1156.364285,1064.8,1304.3
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_75_market1501.pt,1,5.498149,419.328125,146.3,7248.1
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_75_market1501.pt,2,3.301440,303.323333,288.4,350.6
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_75_market1501.pt,3,1.792431,563.116129,518.6,698.3
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_75_market1501.pt,4,1.461791,693.634482,641.1,1139.5
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_75_market1501.pt,5,1.179077,852.321428,760.6,991.4
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_5_market1501.pt,1,6.787139,363.581250,117.2,6709.7
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_5_market1501.pt,2,4.348399,230.440000,218.2,259.8
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_5_market1501.pt,3,2.555490,393.412903,370.1,454.4
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_5_market1501.pt,4,2.099637,482.096551,442.2,708.7
+strongsort,../tpu_weights/v8/320/yolov8n_full_integer_quant_edgetpu.tflite,osnet_x0_5_market1501.pt,5,1.674183,599.971428,540.9,716.1
