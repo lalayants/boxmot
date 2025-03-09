@@ -7,17 +7,19 @@ cd "$(dirname "$0")/.."
 # reid_models=("osnet_x1_0_dukemtmcreid.pt" "osnet_x1_0_market1501.pt" "osnet_x1_0_msmt17.pt")
 # reid_models=("resnet50_msmt17.pt" "resnet50_fc512_msmt17.pt" "clip_market1501.pt" "lmbn_n_cuhk03_d.pt")
 # yolo_weights=("yolov8n.pt" "yolov8s.pt" "yolov8m.pt" "yolov8l.pt" "yolov8x.pt")
-trackers=("strongsort" "ocsort" "bytetrack" "botsort" "deepocsort" "imprassoc")
-yolo_weights=("yolov8n_runs_512p_450epoches.pt" "yolov8s_runs_512p_450epoches.pt" "yolov8m_runs_512p_450epoches.pt" "yolov8l_runs_512p_450epoches.pt" "yolov8x_runs_512p_450epoches.pt"
-            "yolov8n_runs_320p_600epoches.pt" "yolov8s_runs_320p_600epoches.pt" "yolov8m_runs_320p_600epoches.pt" "yolov8l_runs_320p_600epoches.pt" "yolov8x_runs_320p_600epoches.pt"
-            )
-reid_models=("osnet_x1_0_market1501.pt" "osnet_x0_75_market1501.pt" "osnet_x0_5_market1501.pt" "osnet_x0_25_market1501.pt" "clip_market1501.pt" "lmbn_n_market.pt" "clip_market1501.pt" "osnet_ibn_x1_0_msmt17.pt" "osnet_ain_x1_0_msmt17.pt")
-
+# trackers=("strongsort" "ocsort" "bytetrack" "botsort" "deepocsort" "imprassoc")
+# yolo_weights=("yolov8n_runs_512p_450epoches.pt" "yolov8s_runs_512p_450epoches.pt" "yolov8m_runs_512p_450epoches.pt" "yolov8l_runs_512p_450epoches.pt" "yolov8x_runs_512p_450epoches.pt"
+#             "yolov8n_runs_320p_600epoches.pt" "yolov8s_runs_320p_600epoches.pt" "yolov8m_runs_320p_600epoches.pt" "yolov8l_runs_320p_600epoches.pt" "yolov8x_runs_320p_600epoches.pt"
+#             )
+# reid_models=("osnet_x1_0_market1501.pt" "osnet_x0_75_market1501.pt" "osnet_x0_5_market1501.pt" "osnet_x0_25_market1501.pt" "clip_market1501.pt" "lmbn_n_market.pt" "clip_market1501.pt" "osnet_ibn_x1_0_msmt17.pt" "osnet_ain_x1_0_msmt17.pt")
+trackers=("bytetrack")
+reid_models=("osnet_x1_0_msmt17.pt")
+yolo_weights=("yolov8n_runs_320p_600epoches.pt")
 
 
 
 # Set the dataset directory.
-DATASET_DIR="tracking/val_utils/data/MOT17-50/train"
+DATASET_DIR="tracking/val_utils/data/MOT175FPS/train"
 
 # Count total frames in the dataset directory.
 NUM_FRAMES=$(find "$DATASET_DIR" -type f | wc -l)

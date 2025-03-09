@@ -58,3 +58,4 @@ boxmot/motion/cmc/*.jpg
 benchmark_scripts/old
 benchmark_scripts/*/*json
 benchmark_scripts/plots
+runs2
