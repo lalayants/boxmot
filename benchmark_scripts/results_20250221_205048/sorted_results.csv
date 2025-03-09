@@ -1,3 +1,4 @@
+Tracker,REID Model,YOLO Model,ImgSz,Status,HOTA,MOTA,IDF1,FPS,Elapsed_time
 strongsort,osnet_x1_0_market1501.pt,yolov8x_runs_512p_450epoches.pt,512,OK,47.209,49.853,63.494,11.52,232.022462953
 strongsort,osnet_x0_75_market1501.pt,yolov8x_runs_512p_450epoches.pt,512,OK,47.13,49.876,62.925,8.56,312.098272827
 strongsort,osnet_x0_5_market1501.pt,yolov8x_runs_512p_450epoches.pt,512,OK,47.043,49.852,62.627,8.86,301.607712462
@@ -538,4 +539,3 @@ deepocsort,osnet_ain_x1_0_msmt17.pt,yolov8n_runs_320p_600epoches.pt,320,OK,34.50
 deepocsort,lmbn_n_market.pt,yolov8n_runs_320p_600epoches.pt,320,OK,34.342,36.209,45.597,76.51,34.933057079
 deepocsort,clip_market1501.pt,yolov8n_runs_320p_600epoches.pt,320,OK,34.687,36.216,46.298,69.97,38.199592922
 deepocsort,clip_market1501.pt,yolov8n_runs_320p_600epoches.pt,320,OK,34.687,36.216,46.298,69.64,38.378436437
-Tracker,REID Model,YOLO Model,ImgSz,Status,HOTA,MOTA,IDF1,FPS,Elapsed_time
