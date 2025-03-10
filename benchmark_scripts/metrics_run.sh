@@ -19,7 +19,8 @@ yolo_weights=("yolov8n_runs_320p_600epoches.pt")
 
 
 # Set the dataset directory.
-DATASET_DIR="tracking/val_utils/data/MOT175FPS/train"
+FPS=15
+DATASET_DIR="tracking/val_utils/data/MOT17${FPS}FPS/train"
 
 # Count total frames in the dataset directory.
 NUM_FRAMES=$(find "$DATASET_DIR" -type f | wc -l)
@@ -27,7 +28,7 @@ echo "Dataset has $NUM_FRAMES frames."
 
 # Create a results directory inside benchmark_scripts with a timestamp.
 TIMESTAMP=$(date +'%Y%m%d_%H%M%S')
-RESULTS_DIR="benchmark_scripts/results_$TIMESTAMP"
+RESULTS_DIR="benchmark_scripts/results_${FPS}fps_$TIMESTAMP"
 mkdir -p "$RESULTS_DIR"
 
 # Create (or clear) the combined results CSV file.
