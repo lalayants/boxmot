@@ -1,5 +1,5 @@
 Tracker,REID Model,YOLO Model,ImgSz,Status,HOTA,MOTA,IDF1,FPS,Elapsed_time
-strongsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,ERROR,,,,45.08,77.012392629
+strongsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,OK,40.384,45.369,55.652,12.43,279.278406111
 strongsort,osnet_x1_0_market1501.pt,yolov8s_runs_512p_450epoches.pt,512,OK,43.087,49.569,59.668,10.63,326.567810318
 strongsort,osnet_x1_0_market1501.pt,yolov8m_runs_512p_450epoches.pt,512,OK,44.433,52.121,60.587,9.37,370.341289574
 strongsort,osnet_x1_0_market1501.pt,yolov8l_runs_512p_450epoches.pt,512,OK,43.7,50.949,59.341,9.34,371.666415884
@@ -79,7 +79,7 @@ strongsort,osnet_ain_x1_0_msmt17.pt,yolov8s_runs_320p_600epoches.pt,320,OK,40.38
 strongsort,osnet_ain_x1_0_msmt17.pt,yolov8m_runs_320p_600epoches.pt,320,OK,41.682,45.172,58.761,11.79,294.290019326
 strongsort,osnet_ain_x1_0_msmt17.pt,yolov8l_runs_320p_600epoches.pt,320,OK,42.771,45.906,59.976,11.36,305.397643374
 strongsort,osnet_ain_x1_0_msmt17.pt,yolov8x_runs_320p_600epoches.pt,320,OK,43.024,46.798,60.249,11.18,310.520749679
-ocsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,ERROR,,,,566.04,6.133839990
+ocsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,OK,36.86,40.937,48.7,146.62,23.679756575
 ocsort,osnet_x1_0_market1501.pt,yolov8s_runs_512p_450epoches.pt,512,OK,37.362,44.144,49.402,141.29,24.572419339
 ocsort,osnet_x1_0_market1501.pt,yolov8m_runs_512p_450epoches.pt,512,OK,38.698,46.636,50.925,138.85,25.005181290
 ocsort,osnet_x1_0_market1501.pt,yolov8l_runs_512p_450epoches.pt,512,OK,39.832,45.768,52.841,140.37,24.733360505
@@ -159,7 +159,7 @@ ocsort,osnet_ain_x1_0_msmt17.pt,yolov8s_runs_320p_600epoches.pt,320,OK,34.934,38
 ocsort,osnet_ain_x1_0_msmt17.pt,yolov8m_runs_320p_600epoches.pt,320,OK,35.768,40.578,47.36,149.17,23.274187888
 ocsort,osnet_ain_x1_0_msmt17.pt,yolov8l_runs_320p_600epoches.pt,320,OK,37.17,41.423,50.085,146.45,23.707733045
 ocsort,osnet_ain_x1_0_msmt17.pt,yolov8x_runs_320p_600epoches.pt,320,OK,36.701,41.955,48.87,147.83,23.485645142
-bytetrack,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,ERROR,,,,593.42,5.850741420
+bytetrack,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,OK,37.852,43.065,50.971,161.65,21.477512941
 bytetrack,osnet_x1_0_market1501.pt,yolov8s_runs_512p_450epoches.pt,512,OK,39.437,46.835,53.374,158.22,21.943192651
 bytetrack,osnet_x1_0_market1501.pt,yolov8m_runs_512p_450epoches.pt,512,OK,39.903,49.444,53.446,154.73,22.437927957
 bytetrack,osnet_x1_0_market1501.pt,yolov8l_runs_512p_450epoches.pt,512,OK,40.777,48.501,54.919,161.32,21.521381457
@@ -239,7 +239,7 @@ bytetrack,osnet_ain_x1_0_msmt17.pt,yolov8s_runs_320p_600epoches.pt,320,OK,36.148
 bytetrack,osnet_ain_x1_0_msmt17.pt,yolov8m_runs_320p_600epoches.pt,320,OK,36.033,42.742,48.428,169.83,20.443711293
 bytetrack,osnet_ain_x1_0_msmt17.pt,yolov8l_runs_320p_600epoches.pt,320,OK,38.167,43.868,51.882,167.95,20.672297467
 bytetrack,osnet_ain_x1_0_msmt17.pt,yolov8x_runs_320p_600epoches.pt,320,OK,38.127,44.024,51.392,164.76,21.072307040
-botsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,ERROR,,,,450.59,7.705317209
+botsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,OK,40.373,44.636,54.923,82.54,42.061097569
 botsort,osnet_x1_0_market1501.pt,yolov8s_runs_512p_450epoches.pt,512,OK,42.557,48.89,58.736,87.37,39.737975489
 botsort,osnet_x1_0_market1501.pt,yolov8m_runs_512p_450epoches.pt,512,OK,43.599,51.625,59.322,85.92,40.409139876
 botsort,osnet_x1_0_market1501.pt,yolov8l_runs_512p_450epoches.pt,512,OK,43.713,50.865,60.032,85.50,40.607249433
@@ -319,7 +319,7 @@ botsort,osnet_ain_x1_0_msmt17.pt,yolov8s_runs_320p_600epoches.pt,320,OK,39.104,4
 botsort,osnet_ain_x1_0_msmt17.pt,yolov8m_runs_320p_600epoches.pt,320,OK,40.151,44.792,54.868,87.57,39.646738496
 botsort,osnet_ain_x1_0_msmt17.pt,yolov8l_runs_320p_600epoches.pt,320,OK,40.617,45.547,55.089,84.89,40.897718354
 botsort,osnet_ain_x1_0_msmt17.pt,yolov8x_runs_320p_600epoches.pt,320,OK,40.941,46.35,55.703,86.97,39.920923279
-deepocsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,ERROR,,,,514.94,6.742408164
+deepocsort,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,OK,37.938,42.841,51.229,100.73,34.465676404
 deepocsort,osnet_x1_0_market1501.pt,yolov8s_runs_512p_450epoches.pt,512,OK,39.064,46.477,53.112,92.82,37.405048896
 deepocsort,osnet_x1_0_market1501.pt,yolov8m_runs_512p_450epoches.pt,512,OK,41.065,49.02,55.297,94.77,36.633326456
 deepocsort,osnet_x1_0_market1501.pt,yolov8l_runs_512p_450epoches.pt,512,OK,40.738,47.74,54.891,94.17,36.866312926
@@ -399,7 +399,7 @@ deepocsort,osnet_ain_x1_0_msmt17.pt,yolov8s_runs_320p_600epoches.pt,320,OK,34.85
 deepocsort,osnet_ain_x1_0_msmt17.pt,yolov8m_runs_320p_600epoches.pt,320,OK,37.171,42.6,50.244,94.93,36.572396195
 deepocsort,osnet_ain_x1_0_msmt17.pt,yolov8l_runs_320p_600epoches.pt,320,OK,37.64,43.349,51.37,95.66,36.291999196
 deepocsort,osnet_ain_x1_0_msmt17.pt,yolov8x_runs_320p_600epoches.pt,320,OK,38.063,43.888,51.279,95.53,36.341590857
-imprassoc,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,ERROR,,,,506.55,6.854177659
+imprassoc,osnet_x1_0_market1501.pt,yolov8n_runs_512p_450epoches.pt,512,OK,37.536,45.007,47.772,107.45,32.310637403
 imprassoc,osnet_x1_0_market1501.pt,yolov8s_runs_512p_450epoches.pt,512,OK,38.827,48.638,49.506,107.94,32.164384448
 imprassoc,osnet_x1_0_market1501.pt,yolov8m_runs_512p_450epoches.pt,512,OK,39.786,51.362,50.229,109.29,31.767935119
 imprassoc,osnet_x1_0_market1501.pt,yolov8l_runs_512p_450epoches.pt,512,OK,39.564,49.878,49.521,110.11,31.531623143
