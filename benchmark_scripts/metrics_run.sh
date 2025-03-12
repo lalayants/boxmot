@@ -12,7 +12,8 @@ reid_models=("osnet_x1_0_market1501.pt" "osnet_x0_75_market1501.pt" "osnet_x0_5_
 
 
 # Set the dataset directory.
-FPS=11
+# 3 1
+FPS=5
 DATASET_DIR="tracking/val_utils/data/MOT17${FPS}FPS/train"
 
 # Count total frames in the dataset directory.
